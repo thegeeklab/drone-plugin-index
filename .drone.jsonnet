@@ -56,6 +56,7 @@ local PipelineDocs = {
       ],
       environment: {
         LINK_VALIDATOR_BASE_DIR: 'public',
+        LINK_VALIDATOR_RETRIES: '3',
       },
     },
     {

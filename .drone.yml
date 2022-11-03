@@ -44,6 +44,7 @@ steps:
       - link-validator --nice --external --skip-file .linkcheckignore
     environment:
       LINK_VALIDATOR_BASE_DIR: public
+      LINK_VALIDATOR_RETRIES: 3
 
   - name: build
     image: thegeeklab/hugo:0.97.3
@@ -85,6 +86,6 @@ trigger:
 
 ---
 kind: signature
-hmac: 446b57f10122e64f67000e9d1319456425ef8b9472b4eaddc7da8ddc7814b9bb
+hmac: 91a8abe98608ac3c7a4f582f594772f8dddf49844a92449c886a8382a1d8b17d
 
 ...
