@@ -41,7 +41,7 @@ steps:
   - name: link-validation
     image: thegeeklab/link-validator
     commands:
-      - "link-validator --color=always --rate-limit 10 -v --header \"user-agent: curl\""
+      - "link-validator --color=always --rate-limit 10 -v --header 'user-agent: curl'"
     environment:
       LINK_VALIDATOR_BASE_DIR: public
       LINK_VALIDATOR_RETRIES: 3
@@ -86,6 +86,6 @@ trigger:
 
 ---
 kind: signature
-hmac: 8e63e85cfbdfdb32c85847cd6917d3fe193894c7767794e9db430a0067919803
+hmac: eb8126969dd49f2fbef159a95ecb3b912e1030f2c7a09fb85cd35e5b3641e3b3
 
 ...

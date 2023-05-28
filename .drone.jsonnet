@@ -52,7 +52,7 @@ local PipelineDocs = {
       name: 'link-validation',
       image: 'thegeeklab/link-validator',
       commands: [
-        'link-validator --color=always --rate-limit 10 -v --header "user-agent: curl"',
+        "link-validator --color=always --rate-limit 10 -v --header 'user-agent: curl'",
       ],
       environment: {
         LINK_VALIDATOR_BASE_DIR: 'public',
