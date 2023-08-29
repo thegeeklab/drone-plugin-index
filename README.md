@@ -4,6 +4,8 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/thegeeklab/drone-plugin-index)](https://github.com/thegeeklab/drone-plugin-index/graphs/contributors)
 [![License: MIT](https://img.shields.io/github/license/thegeeklab/drone-plugin-index)](https://github.com/thegeeklab/drone-plugin-index/blob/main/LICENSE)
 
+> **DISCONTINUED:** As I don't use Drone CI anymore, this project is unmaintained. If you are interested in a free and open source CI system check out [Woodpecker CI](https://woodpecker-ci.org/).
+
 Drone CI custom resource documentation.
 
 ## Contributors
